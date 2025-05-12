@@ -1,1 +1,1 @@
-[# jundduck.github.io](https://jundduck.github.io/)
+[# jundduck.github.io]
