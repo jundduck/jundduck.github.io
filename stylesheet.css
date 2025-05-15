@@ -172,3 +172,9 @@ h2 {
 span.highlight {
     background-color: #ffffd0; /* 연노랑 배경 */
 }
+
+/* 프로필 섹션 배경색 지정 */
+table.profile-section {
+    background-color: #f0f8ff; /* 연한 파란색 - 원하는 색으로 변경 가능 */
+}
+
