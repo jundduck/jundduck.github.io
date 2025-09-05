@@ -1,313 +1,354 @@
-<!--
-
-<b>  굵게 (bold)
-<br> 줄바꿈(line break)
-<li> 리스트 항목 (list item)
-<u>  밑줄
-<table> 표
-<em> 기울임체
-padding: 상 우 하 좌;
-
-
-Projects: VTOL 대회, HL FMA 자율주행 대회, AI Navigation
-
--->
-
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>Lee Jun Seok</title>
-    <meta name="author" content="Lee Jun Seok">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="stylesheet.css">
-    <!-- Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7JWLTG7V3Q"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-7JWLTG7V3Q');
-    </script>
-  </head>
-  <body>
-    <table style="width:100%;max-width:800px;margin:auto;border-spacing:0;border-collapse:separate;">
-      <tr><td>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lee Jun Seok — Robotics · AD · RL</title>
+  <meta name="description" content="Portfolio of Jun Seok Lee — Robotics, Autonomous Driving, Reinforcement Learning." />
+  <meta name="author" content="Lee Jun Seok" />
 
-        
+  <!-- Favicon -->
+  <link rel="icon" href="images/favicon/favicon.ico" />
 
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet" />
 
-        
-        <!-- Profile Section -->
-        <table style="width:100%;margin:auto;border-spacing:0;border-collapse:separate;">
-          <tr>
-            <td style="padding:2.5%;width:63%;vertical-align:middle">
-              <p class="name" style="text-align: center;">Lee Jun Seok</p>
-              <p>Hi! I'm an Undergraduate student at <a href="https://civil.yonsei.ac.kr/civil/index.do">CEE</a> in Civil & Environmental Engineering at <a href="https://yonsei.ac.kr/sc/index.do">Yonsei University</a>.</p>
-              <p>I am interested in <strong>Robotics</strong>, <strong>Autonomous Driving</strong>, and <strong>Reinforcement Learning</strong>, but not limited to.</p>
-              <p>Let's create a robot world for humans together.</p>
-              <p style="text-align:center">
-                <a href="mailto:ryan082688@gmail.com">ryan082688@gmail.com</a> &nbsp;/&nbsp;
-                <a href="files/Junseok_Lee_CV.pdf" target="_blank">CV</a> &nbsp;/&nbsp;
-                <a href="https://scholar.google.com/citations?user=1inReXYAAAAJ&hl=ko">Scholar</a> &nbsp;/&nbsp;
-                <a href="https://www.linkedin.com/in/jundduck/">LinkedIn</a> &nbsp;/&nbsp;
-                <a href="https://github.com/jundduck">Github</a>
-              </p>
-            </td>
-            <td style="padding:2.5%;width:40%;max-width:40%">
-              <a href="images/항공기 준석.png">
-                <img src="images/항공기 준석.png" alt="profile photo" style="width:100%;object-fit:cover;border-radius:50%;" class="hoverZoomLink">
-              </a>
-            </td>
-          </tr>
-        </table>
+  <!-- GA (unchanged) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-7JWLTG7V3Q"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-7JWLTG7V3Q');
+  </script>
 
+  <style>
+    :root {
+      --bg: #0b0e14;
+      --bg-soft: #111624;
+      --card: #121826;
+      --text: #e6edf7;
+      --muted: #9aa4b2;
+      --brand: #7aa2ff;
+      --brand-2: #9bffd1;
+      --ring: rgba(122, 162, 255, .45);
+      --glow: 0 0 0px rgba(122,162,255,0), 0 0 30px rgba(122,162,255,.15);
+    }
+    * { box-sizing: border-box; }
+    html, body { height: 100%; }
+    body {
+      margin: 0; background: radial-gradient(1200px 800px at 85% -10%, rgba(122,162,255,.08), rgba(0,0,0,0)) , radial-gradient(1000px 700px at 10% 10%, rgba(155,255,209,.06), rgba(0,0,0,0)) , var(--bg);
+      color: var(--text); font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji"; line-height: 1.6; -webkit-font-smoothing: antialiased;
+    }
+    a { color: var(--brand); text-decoration: none; }
+    a:hover { text-decoration: underline; }
 
-      
-        <!-- Publications Section -->
-        <table style="width:100%;margin:auto;border-spacing:0;border-collapse:separate;">
-          <tr><td style="padding:40px 0px 0px 0px;"><h2>Publications</h2></td></tr>
-        </table>
-        <table style="width:100%;margin:auto;border-spacing:0;border-collapse:separate;">
-          <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle;">
-              <img src="images/SSS.png" alt="Paper Thumbnail" style="width:100%;">
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle;">
-              <span class="papertitle">Semantic Segmentation-Based Autonomous Flying Drone's Victim Recognition Algorithm in the Complex Terrain</span>
-              <br>
-              <strong><u>Lee Jun-Seok*</u></strong>, Jeon Yu-jin*, Kim Eun-tai
-              <br>
-              <em>Accepted in ICROS 2025</em>
-              <p>We recognize victims in complex terrain and judge the possibility of landing autonomous flying drones.</p>
-            </td>
-          </tr>
-        </table>
+    .container { width: 100%; max-width: 1100px; margin: 0 auto; padding: 0 20px; }
 
-        
-        
+    /* ===== NAVBAR ===== */
+    .nav {
+      position: sticky; top: 0; z-index: 50; backdrop-filter: blur(10px);
+      background: linear-gradient(180deg, rgba(11,14,20,.9), rgba(11,14,20,.6));
+      border-bottom: 1px solid rgba(255,255,255,.05);
+    }
+    .nav-wrap { display: flex; align-items: center; justify-content: space-between; padding: 16px 0; }
+    .brand { display: flex; align-items: center; gap: 12px; font-weight: 800; letter-spacing: .4px; }
+    .brand .dot { width: 10px; height: 10px; border-radius: 999px; background: linear-gradient(135deg, var(--brand), var(--brand-2)); box-shadow: var(--glow); }
+    .menu { display: flex; gap: 20px; }
+    .menu a { color: var(--muted); font-weight: 600; }
+    .menu a:hover { color: var(--text); }
+    .cta {
+      padding: 8px 14px; border: 1px solid rgba(255,255,255,.12); border-radius: 999px; color: var(--text);
+      background: linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.02)); box-shadow: var(--glow);
+    }
 
-        <!-- Projects Section -->
-        <table style="width:100%;margin:auto;border-spacing:0;border-collapse:separate;">
-          <tr><td style="padding:40px 0px 0px 0px;"><h2>Projects</h2></td></tr>
-        </table>
+    /* ===== HERO ===== */
+    .hero { padding: 64px 0 24px; }
+    .hero-grid { display: grid; grid-template-columns: 1.3fr .9fr; gap: 28px; align-items: center; }
+    .tag { display: inline-flex; align-items: center; gap: 8px; font-size: 12px; color: var(--muted); padding: 6px 10px; border: 1px solid rgba(255,255,255,.08); border-radius: 999px; }
+    .title { font-family: "Space Grotesk", Inter, system-ui; font-size: clamp(36px, 5vw, 56px); line-height: 1.1; margin: 10px 0 12px; letter-spacing: .3px; }
+    .subtitle { color: var(--muted); max-width: 60ch; }
+    .links { margin-top: 22px; display: flex; flex-wrap: wrap; gap: 10px 14px; }
+    .chip { display: inline-flex; align-items: center; gap: 8px; padding: 10px 14px; border-radius: 12px; background: linear-gradient(180deg, rgba(255,255,255,.07), rgba(255,255,255,.03)); border: 1px solid rgba(255,255,255,.1); }
+    .chip:hover { border-color: rgba(255,255,255,.2); }
 
+    .profile {
+      position: relative; border-radius: 20px; overflow: hidden; border: 1px solid rgba(255,255,255,.08);
+      background: radial-gradient(600px 400px at 80% -20%, rgba(122,162,255,.15), rgba(0,0,0,0)), var(--card);
+      aspect-ratio: 1/1;
+    }
+    .profile img, .profile video { width: 100%; height: 100%; object-fit: cover; display: block; }
 
-        
-        <!-- HL FMA Autonomous Driving Competition -->
-        <table style="width:100%;margin:auto;border-spacing:0;border-collapse:separate;">
-          <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle;">
-              <img src="images/헤네스 차량.jpg" alt="Project Thumbnail" style="width:100%;">
-            </td>
-            
-            <td style="padding:20px;width:75%;vertical-align:middle;">
-              <span class="papertitle">HL FMA Autonomous Driving Competition</span>
-              <br>
-              <span style="float: right;">2025.5 - ongoing</span>
-              <p>Autonomous Driving competition for 1/5 size vehicles using artificial intelligence.</p>
-            </td>
-          </tr>
-        </table>
-        <br>
+    /* ===== SECTION ===== */
+    .section { padding: 64px 0 12px; }
+    .section h2 { font-family: "Space Grotesk", Inter; font-size: clamp(22px, 2.6vw, 32px); letter-spacing: .4px; margin: 0 0 18px; }
+    .section p.lead { color: var(--muted); margin-top: -6px; }
 
+    /* ===== GRID / CARDS ===== */
+    .grid { display: grid; grid-template-columns: repeat(12, 1fr); gap: 22px; }
+    .card { grid-column: span 12; border: 1px solid rgba(255,255,255,.08); border-radius: 16px; overflow: hidden; background: linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.02)); transition: transform .2s ease, border-color .2s ease; }
+    .card:hover { transform: translateY(-2px); border-color: rgba(255,255,255,.2); }
+    .card-hero { position: relative; aspect-ratio: 16/9; background: var(--card); }
+    .card-hero img, .card-hero video { width: 100%; height: 100%; object-fit: cover; display: block; }
+    .card-body { padding: 18px; }
+    .meta { display: flex; align-items: center; gap: 10px; color: var(--muted); font-size: 14px; }
+    .meta .dot { width: 6px; height: 6px; border-radius: 999px; background: var(--muted); opacity: .6; }
+    .title-row { display: flex; gap: 10px; align-items: start; justify-content: space-between; }
+    .papertitle { font-weight: 700; letter-spacing: .2px; }
+    .right { color: var(--muted); font-size: 14px; }
+    .actions { margin-top: 10px; display: flex; gap: 10px; flex-wrap: wrap; }
+    .btn { display: inline-flex; align-items: center; gap: 8px; padding: 8px 12px; border-radius: 10px; border: 1px solid rgba(255,255,255,.12); background: rgba(255,255,255,.04); }
 
+    /* ===== LISTS ===== */
+    ul.clean { list-style: none; padding: 0; margin: 0; }
+    ul.timeline { list-style: none; padding: 0; margin: 0; display: grid; gap: 12px; }
+    ul.timeline li { background: linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.02)); border: 1px solid rgba(255,255,255,.08); border-radius: 12px; padding: 14px 16px; display: grid; grid-template-columns: 1fr auto; gap: 6px 12px; align-items: center; }
+    ul.timeline li b { font-weight: 700; }
+    ul.timeline li span { color: var(--muted); font-size: 14px; }
 
-        
+    /* ===== FOOTER ===== */
+    .footer { padding: 40px 0 60px; color: var(--muted); font-size: 14px; }
 
-        <!-- Quadruped Robot Competition -->
-        <table style="width:100%;margin:auto;border-spacing:0;border-collapse:separate;">
-          <tr>
-            <!-- 왼쪽 썸네일: 자동 재생되는 영상 -->
-            <td style="padding:20px;width:25%;vertical-align:middle;">
-              <video width="100%" autoplay loop muted playsinline>
-                <source src="videos/Unitree Go2.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-                </video>
-            </td>
-            
-            <td style="padding:20px;width:75%;vertical-align:middle;">
-              <div style="font-size:22px; line-height:1; margin-bottom:4px;">👑</div>
-              <span class="papertitle">Quadruped Robot Competition</span>
-              <br>
-              <span style="float: right;">2025.05 - 2025.06</span>
-              <br>
-              📝 <a href="https://www.notion.so/4-1e27f8a56ede807387c9ddbacec21981?pvs=4">project page</a> &nbsp;/&nbsp;
-              🛠 <a href="https://github.com/jundduck/Quadruped_Robot_Competition">code</a>
-              <p>Participate in Autonomous-Driving with Unitree Go2 Edu.</p>
-            </td>
-          </tr>
-        </table>
-        <br>
+    /* ===== RESPONSIVE ===== */
+    @media (max-width: 920px) {
+      .hero-grid { grid-template-columns: 1fr; }
+    }
+    @media (min-width: 680px) {
+      .card.span-6 { grid-column: span 6; }
+      .card.span-4 { grid-column: span 4; }
+      .card.span-8 { grid-column: span 8; }
+    }
+  </style>
+</head>
 
+<body>
+  <!-- NAVBAR -->
+  <header class="nav">
+    <div class="container nav-wrap">
+      <div class="brand"><span class="dot"></span> <span>LEE JUN SEOK</span></div>
+      <nav class="menu" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#pubs">Publications</a>
+        <a href="#projects">Projects</a>
+        <a href="#awards">Awards</a>
+        <a href="#research">Research</a>
+        <a href="#education">Education</a>
+      </nav>
+      <a class="cta" href="mailto:ryan082688@gmail.com">Contact</a>
+    </div>
+  </header>
 
+  <!-- HERO -->
+  <section class="hero" id="about">
+    <div class="container hero-grid">
+      <div>
+        <span class="tag">Robotics · Autonomous Driving · Reinforcement Learning</span>
+        <h1 class="title">Let's build a <span style="background: linear-gradient(90deg, var(--brand), var(--brand-2)); -webkit-background-clip: text; background-clip: text; color: transparent;">robot world</span> for humans.</h1>
+        <p class="subtitle">Hi! I'm an undergraduate student in <a href="https://civil.yonsei.ac.kr/civil/index.do" target="_blank">Civil & Environmental Engineering</a> at <a href="https://yonsei.ac.kr/sc/index.do" target="_blank">Yonsei University</a>. I explore the intersection of robotics, autonomous driving, and learning systems—both in simulation and the real world.</p>
+        <div class="links">
+          <a class="chip" href="mailto:ryan082688@gmail.com">📧 ryan082688@gmail.com</a>
+          <a class="chip" href="files/Junseok_Lee_CV.pdf" target="_blank">📄 CV</a>
+          <a class="chip" href="https://scholar.google.com/citations?user=1inReXYAAAAJ&hl=ko" target="_blank">🎓 Scholar</a>
+          <a class="chip" href="https://www.linkedin.com/in/jundduck/" target="_blank">💼 LinkedIn</a>
+          <a class="chip" href="https://github.com/jundduck" target="_blank">🐙 GitHub</a>
+        </div>
+      </div>
 
-        
-        <!-- Robot Aircraft Competition -->
-        <table style="width:100%;margin:auto;border-spacing:0;border-collapse:separate;">
-          <tr>
-            <!-- 왼쪽 썸네일: 자동 재생되는 영상 -->
-            <td style="padding:20px;width:25%;vertical-align:middle;">
-              <video width="100%" autoplay loop muted playsinline>
-                <source src="videos/VTOL(square path)(포폴).mp4" type="video/mp4">
-                Your browser does not support the video tag.
-                </video>
-            </td>
-            
-            <td style="padding:20px;width:75%;vertical-align:middle;">
-              <span class="papertitle">VTOL Autonomous Flying Competition</span>
-              <br>
-              <span style="float: right;">2024.10 - ongoing</span>
-              <br>
-              📝 <a href="https://www.notion.so/23-1b97f8a56ede802fbdf5c4fb9df92dc3?pvs=4">project page</a> &nbsp;/&nbsp;
-              🛠 <a href="https://github.com/jundduck/Robot-Aircraft-Competition">code</a>
-              <p>VTOL Autonomous Flight Drone Rescue Mission in Yonsei Drone. (Robot Aircraft Contest)</p>
-            </td>
-          </tr>
-        </table>
-        <br>
+      <div class="profile" aria-label="Profile photo">
+        <img src="images/항공기 준석.png" alt="Jun Seok Lee profile" />
+      </div>
+    </div>
+  </section>
 
-        
-       <!-- AI Navigation -->
-        <table style="width:100%;margin:auto;border-spacing:0;border-collapse:separate;">
-          <tr>
-            <!-- 왼쪽 썸네일: 자동 재생되는 영상 -->
-            <td style="padding:20px;width:25%;vertical-align:middle;">
-              <video width="100%" autoplay loop muted playsinline>
-                <source src="videos/AI Navigation 구동 영상(포폴).mp4" type="video/mp4">
-                Your browser does not support the video tag.
-                </video>
-            </td>
-            
-            <td style="padding:20px;width:75%;vertical-align:middle;">
-              <span class="papertitle">AI Navigation</span>
-              <br>
-              <span style="float: right;">2024.10 - 2024.12</span>
-              <br>
-              📝 <a href="https://www.notion.so/AI-Navigation-1f27f8a56ede80ec88bee04a59cdf897?pvs=4">project page</a> &nbsp;/&nbsp;
-              🛠 <a href="https://github.com/YonseiDrone/crossformer-ysdrone" target="_blank">code</a>
-              <p>The CrossFormer model was applied to the DJI Tello drone in Yonsei Drone.</p>
-            </td>
-          </tr>
-        </table>
-        <br>
+  <!-- PUBLICATIONS -->
+  <section class="section" id="pubs">
+    <div class="container">
+      <h2>Publications</h2>
+      <div class="grid">
+        <article class="card span-6">
+          <div class="card-hero"><img src="images/SSS.png" alt="Paper thumbnail" /></div>
+          <div class="card-body">
+            <div class="title-row">
+              <div class="papertitle">Semantic Segmentation‑Based Autonomous Flying Drone's Victim Recognition Algorithm in the Complex Terrain</div>
+              <div class="right"><em>ICROS 2025 (Accepted)</em></div>
+            </div>
+            <p><b><u>Lee Jun‑Seok*</u></b>, Jeon Yu‑jin*, Kim Eun‑tai</p>
+            <p class="muted">Recognizing victims in complex terrain and evaluating safe landing feasibility for autonomous flying drones.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
 
+  <!-- PROJECTS -->
+  <section class="section" id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <p class="lead">Selected works across competitions and research builds.</p>
+      <div class="grid">
+        <!-- HL FMA -->
+        <article class="card span-6">
+          <div class="card-hero"><img src="images/헤네스 차량.jpg" alt="HL FMA vehicle" /></div>
+          <div class="card-body">
+            <div class="title-row">
+              <div class="papertitle">HL FMA Autonomous Driving Competition</div>
+              <div class="right">2025.05 — ongoing</div>
+            </div>
+            <p>Autonomous driving for 1/5‑scale vehicles using AI perception‑planning stacks.</p>
+          </div>
+        </article>
 
+        <!-- Quadruped Robot -->
+        <article class="card span-6">
+          <div class="card-hero">
+            <video autoplay muted loop playsinline poster="images/unitree_poster.jpg">
+              <source src="videos/Unitree Go2.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <div class="card-body">
+            <div class="title-row">
+              <div class="papertitle">Quadruped Robot Competition</div>
+              <div class="right">2025.05 — 2025.06</div>
+            </div>
+            <div class="meta"><span>👑 Excellence Award</span> <span class="dot"></span> <span>Unitree Go2 EDU</span></div>
+            <div class="actions">
+              <a class="btn" href="https://www.notion.so/4-1e27f8a56ede807387c9ddbacec21981?pvs=4" target="_blank">📝 Project page</a>
+              <a class="btn" href="https://github.com/jundduck/Quadruped_Robot_Competition" target="_blank">🛠 Code</a>
+            </div>
+            <p>Autonomous navigation and behaviors with onboard sensing and control.</p>
+          </div>
+        </article>
 
+        <!-- VTOL -->
+        <article class="card span-6">
+          <div class="card-hero">
+            <video autoplay muted loop playsinline poster="images/vtol_poster.jpg">
+              <source src="videos/VTOL(square path)(포폴).mp4" type="video/mp4" />
+            </video>
+          </div>
+          <div class="card-body">
+            <div class="title-row">
+              <div class="papertitle">VTOL Autonomous Flying Competition</div>
+              <div class="right">2024.10 — ongoing</div>
+            </div>
+            <div class="actions">
+              <a class="btn" href="https://www.notion.so/23-1b97f8a56ede802fbdf5c4fb9df92dc3?pvs=4" target="_blank">📝 Project page</a>
+              <a class="btn" href="https://github.com/jundduck/Robot-Aircraft-Competition" target="_blank">🛠 Code</a>
+            </div>
+            <p>Rescue‑mission VTOL with perception and safe‑landing evaluation in Yonsei Drone.</p>
+          </div>
+        </article>
 
-         <!-- XYZ Innovation -->
-        <table style="width:100%;margin:auto;border-spacing:0;border-collapse:separate;">
-          <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle;">
-              <img src="images/tree scan.png" alt="Project Thumbnail" style="width:100%;">
-            </td>
-            
-            <td style="padding:20px;width:75%;vertical-align:middle;">
-              <div style="font-size:22px; line-height:1; margin-bottom:4px;">👑</div>
-              <span class="papertitle">Forest Carbon Compensation Support Project Solution</span>
-              <br>
-              <span style="float: right;">2024.06 - 2025.01</span>
-              <br>
-              📝 <a href="https://www.notion.so/XYZ-Innovation-1f27f8a56ede8044b49cde2d1087d0f4?pvs=4">project page</a> &nbsp;/&nbsp;
-              🛠 <a href="https://github.com/jundduck/XYZ-Innovation-tree_scan">code</a>
-              <p>A company that can find more forests for governments, more clients for businesses, and money hidden for individuals.</p>
-            </td>
-          </tr>
-        </table>
-        <br>
+        <!-- AI Navigation -->
+        <article class="card span-6">
+          <div class="card-hero">
+            <video autoplay muted loop playsinline poster="images/ai_nav_poster.jpg">
+              <source src="videos/AI Navigation 구동 영상(포폴).mp4" type="video/mp4" />
+            </video>
+          </div>
+          <div class="card-body">
+            <div class="title-row">
+              <div class="papertitle">AI Navigation</div>
+              <div class="right">2024.10 — 2024.12</div>
+            </div>
+            <div class="actions">
+              <a class="btn" href="https://www.notion.so/AI-Navigation-1f27f8a56ede80ec88bee04a59cdf897?pvs=4" target="_blank">📝 Project page</a>
+              <a class="btn" href="https://github.com/YonseiDrone/crossformer-ysdrone" target="_blank">🛠 Code</a>
+            </div>
+            <p>Applied CrossFormer to DJI Tello for onboard perception and navigation.</p>
+          </div>
+        </article>
 
-       
-       
+        <!-- XYZ Innovation -->
+        <article class="card span-12">
+          <div class="card-hero"><img src="images/tree scan.png" alt="Forest carbon project" /></div>
+          <div class="card-body">
+            <div class="title-row">
+              <div class="papertitle">Forest Carbon Compensation Support Project Solution</div>
+              <div class="right">2024.06 — 2025.01</div>
+            </div>
+            <div class="meta"><span>👑 Best Award — Yonsei‑Asan UnivCT Climate Tech Start‑Up</span></div>
+            <div class="actions">
+              <a class="btn" href="https://www.notion.so/XYZ-Innovation-1f27f8a56ede8044b49cde2d1087d0f4?pvs=4" target="_blank">📝 Project page</a>
+              <a class="btn" href="https://github.com/jundduck/XYZ-Innovation-tree_scan" target="_blank">🛠 Code</a>
+            </div>
+            <p>Finding measurable climate value: tree scanning, segmentation, and carbon estimation tooling for field deployments.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
 
-       
+  <!-- AWARDS -->
+  <section class="section" id="awards">
+    <div class="container">
+      <h2>Awards & Honors</h2>
+      <ul class="timeline">
+        <li><div><b>Excellence Award</b> — QRC Korea (Quadruped Robot Challenge)</div><span>Jun 2025</span></li>
+        <li><div><b>Best Award</b> — Yonsei‑Asan UnivCT Climate Tech Start‑Up</div><span>Oct 2024</span></li>
+      </ul>
+    </div>
+  </section>
 
-       
-        
-    
+  <!-- RESEARCH -->
+  <section class="section" id="research">
+    <div class="container">
+      <h2>Research Experiences</h2>
+      <ul class="timeline">
+        <li>
+          <div><a href="https://cilab.yonsei.ac.kr/" target="_blank"><b>Computational Intelligence Lab</b></a>, Yonsei Univ. — Undergraduate Intern (Prof. Eun‑Tai Kim)</div>
+          <span>Jan 2025 — Present</span>
+        </li>
+        <li>
+          <div><a href="https://vce.yonsei.ac.kr/vce/index.do" target="_blank"><b>Mobility System Engineering</b></a>, Yonsei Univ. — Undergraduate Research Scholarship (Hyundai Motors)</div>
+          <span>Oct 2024 — Present</span>
+        </li>
+        <li>
+          <div><a href="https://sites.google.com/view/damislab/" target="_blank"><b>High‑Dimensional Accurate Measurement & Intelligent Sensing Lab</b></a>, Yonsei Univ. — Undergraduate Intern (Prof. Jae‑Sang Hyun)</div>
+          <span>Jul 2024 — Dec 2024</span>
+        </li>
+        <li>
+          <div><b>Cofounder — XYZ Innovation</b> (Climate Tech) — Robotics Developer (Hyundai Asan Foundation)</div>
+          <span>Jun 2024 — Present</span>
+        </li>
+      </ul>
+    </div>
+  </section>
 
-        <!-- Awards & Honors Section -->
-        <table style="width:100%;margin:auto;border-spacing:0;border-collapse:separate;">
-          <tr><td style="padding:40px 0px 0px 0px;">
-            <h2>Awards & Honors</h2>
-            <ul>
-              <li class="exp_list">
-                <b>Best Award</b> in Yonsei-Asan UnivCT Climate Tech Start-Up.
-                <span style="float: right;">Oct 2024</span><br>
-              </li>
-              <br>
-              <li class="exp_list">
-                <b>Excellence Award</b> in QRC Korea (Quadruped Robot Challenge).
-                <span style="float: right;">Jun 2025</span><br>
-              </li>
-            </ul>
-          </td></tr>
-        </table><br>
-        <br>
+  <!-- EDUCATION -->
+  <section class="section" id="education">
+    <div class="container">
+      <h2>Education</h2>
+      <ul class="clean">
+        <li>B.S. in Civil & Environmental Engineering, Yonsei University <span style="color: var(--muted);">(expected Jun 2026)</span></li>
+      </ul>
+    </div>
+  </section>
 
-        
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div style="display:flex; align-items:center; justify-content:space-between; gap: 16px; flex-wrap: wrap;">
+        <span>© <span id="y"></span> Lee Jun Seok</span>
+        <span style="opacity:.7">Built with love for robots • Last updated <span id="d"></span></span>
+      </div>
+    </div>
+  </footer>
 
-        
-        <!-- Research Experiences Section -->
-        <table style="width:100%;margin:auto;border-spacing:0;border-collapse:separate;">
-          <tr><td style="padding:40px 0px 0px 0px;">
-            <h2>Research Experiences</h2>
-            <ul>
-              <li class="exp_list">
-                <a href="https://cilab.yonsei.ac.kr/" target="_blank"><b>Computational Intelligence Lab</b></a>, Yonsei Univ.
-                <span style="float: right;">Jan 2025 - Present</span><br>
-                &nbsp;&nbsp; Undergraduate Intern, working with Prof. Eun-Tai Kim.
-              </li><br>
-              
-              <li class="exp_list">
-                <a href="https://sites.google.com/view/damislab/" target="_blank"><b>High-Dimensional Accurate Measurement and Intelligent Sensing Lab</b></a>, Yonsei Univ.
-                <span style="float: right;">Jul 2024 - Dec 2024</span><br>
-                &nbsp;&nbsp; Undergraduate Intern, working with Prof. Jae-Sang Hyun.
-              </li><br>
-              
-              <li class="exp_list">
-                <a href="https://vce.yonsei.ac.kr/vce/index.do" target="_blank"><b>Mobility System Engineering</b></a>, Yonsei Univ.
-                <span style="float: right;">Oct 2024 - Present</span><br>
-                &nbsp;&nbsp; Undergraduate Research Scholarship Program, in collaboration with Hyundai Motors.
-              </li><br>
-              
-              <li class="exp_list">
-                <b>Cofounder - XYZ Innovation</b> (Climate Tech Start-up)
-                <span style="float: right;">Jun 2024 - Present</span><br>
-                &nbsp;&nbsp; Robotics Developer, Supported by Hyundai Asan Foundation.
-              </li>
-            </ul>
-          </td></tr>
-        </table>
-        <br>
+  <script>
+    // small lux: set year / date
+    document.getElementById('y').textContent = new Date().getFullYear();
+    document.getElementById('d').textContent = new Date().toLocaleDateString();
 
-
-        
-        <!-- Education -->
-        <table style="width:100%;margin:auto;border-spacing:0;border-collapse:separate;">
-          <tr><td style="padding:40px 0px 0px 0px;">
-            <h2>Education</h2>
-            <ul>
-              <li class="exp_list">
-                Bachelor in Civil & Environmental Engineering, Yonsei University (~expected in 2026.Jun)
-              </li>
-            </ul>
-          </td></tr>
-        </table><br>
-        
-        
-        
-        <!-- Footer -->
-        <table style="width:100%;margin:auto;border-spacing:0;border-collapse:separate;">
-          <tr><td style="padding:40px 0px 0px 0px;">
-            <br>
-            <p style="text-align:right;font-size:small;">
-             <!-- Template adapted from <a href="https://github.com/jonbarron/jonbarron_website">here</a>. I appreciate him for kindly open-sourcing the source code.-->
-            </p>
-          </td></tr>
-        </table>
-
-      </td></tr>
-    </table>
-  </body>
+    // optional: pause/play videos when offscreen for performance
+    const vids = Array.from(document.querySelectorAll('video'));
+    const io = new IntersectionObserver((entries)=>{
+      entries.forEach(e=>{
+        if(e.isIntersecting) { e.target.play().catch(()=>{}); }
+        else { e.target.pause(); }
+      })
+    }, { threshold: .25 });
+    vids.forEach(v=>io.observe(v));
+  </script>
+</body>
 </html>
