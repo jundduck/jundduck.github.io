@@ -1,44 +1,59 @@
-name: Deploy Jekyll site to GitHub Pages
+name: Build & Deploy Jekyll (with scholar + imagemagick)
 
 on:
   push:
-    branches:
-      - main
+    branches: [ main ]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
-  build-and-deploy:
+  build:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-
     steps:
-      - name: Check out the repository
-        uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      - name: Create gh-pages branch if it doesn't exist
-        uses: peterjgrainger/action-create-branch@v3.0.0
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          branch: 'gh-pages'
-
-      - name: Set up Ruby
+      - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.0'  # Specify the Ruby version you prefer
-          bundler-cache: true  # Caches the installed gems automatically
+          ruby-version: '3.2'     # 3.4은 아직 액션/젬 호환 이슈가 있을 수 있어 3.2로 권장
+          bundler-cache: true
 
-      - name: Install dependencies
+      - name: Install ImageMagick (for jekyll-imagemagick)
         run: |
-          bundle install
+          sudo apt-get update
+          sudo apt-get install -y imagemagick
 
-      - name: Build the Jekyll site
+      - name: Install deps
         run: |
-          bundle exec jekyll build
+          bundle config set path 'vendor/bundle'
+          bundle install --jobs 4 --retry 3
 
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
+      - name: Build Jekyll
+        env:
+          JEKYLL_ENV: production
+        run: bundle exec jekyll build --trace
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_site
-          publish_branch: gh-pages
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
