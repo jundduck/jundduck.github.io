@@ -1,8 +1,9 @@
 ---
 layout: post
-start_end: "Jun, 2024 - Aug, 2024"
+start_end: "Mar, 2022 - Aug, 2026"
 inline: true
 ---
 
-[University of California, Berkeley](https://www.berkeley.edu/), Berkeley, CA, USA \
-Visiting Summer Sessions Student
+[Yonsei University](https://www.yonsei.ac.kr/sc/index.do), Seoul, South Korea \
+B.S. in Civil & Environmental Engineering\
+GPA: 3.3/4.3

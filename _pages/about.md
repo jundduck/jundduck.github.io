@@ -6,23 +6,24 @@ subtitle:
 
 profile:
   align: right
-  image: profile_7.png # assets/img/
+  image: profile.jpg # assets/img/
   image_cicular: false # crops the image to make it circular
   address: > 
 
-news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
-education: true # includes a list of education items
-experience: true # includes a list of experience items
-honors: true # includes a list of experience items
-services: true # includes a list of services items
-social: true  # includes social icons at the bottom of the page
+news: true             # includes a list of news items
+selected_papers: true  # includes a list of papers marked as "selected={true}"
+education: true        # includes a list of education items
+experience: true       # includes a list of experience items
+honors: true           # includes a list of experience items
+services: true         # includes a list of services items
+social: true           # includes social icons at the bottom of the page
 ---
 
-I am a M.S. student at POSTECH, South Korea, and I'm fortunate to be advised by Prof. [Suha Kwak](https://suhakwak.github.io/).
+I am a Undergraduate student at Yonsei University, South Korea.
 
-My ultimate goal is to enable machines to understand the world just like humans do. To achieve this, I have been focusing on dataset construction for model training and robustness for real-world applications.
+Hi, I’m an AI researcher passionate about robot world models and navigation. My current focus is on building scalable spatial understanding systems that enable robots to perceive, reason, and act in dynamic environments. I’m exploring how neural world models can serve as a foundation for autonomous navigation and decision-making. If you’re also excited about robot intelligence and embodied AI, let’s connect and explore ideas together.
 
-Having served as both a first and second author on research projects, I am open to research collaboration opportunities. If you find my work interesting, please feel free to reach out to me!
 
-Email: [yeho.gwon@postech.ac.kr](mailto:yeho.gwon@postech.ac.kr)
+I like the tension and thrill that come with competitions.
+
+Email: [ryan082688@gmail.com](mailto:ryan082688@gmail.com)

@@ -1,9 +1,10 @@
 ---
 layout: post
-start_end: "Sep, 2025 - Present"
+start_end: "Feb, 2025 - Jun, 2025"
 inline: true
 ---
 
-[Computer Vision Lab](http://cvlab.postech.ac.kr/lab/) at [POSTECH](https://postech.ac.kr/), Pohang, South Korea \
-*Research and Teaching Assistant*
-- Advisor: [Prof. Suha Kwak](https://suhakwak.github.io/)
+[CILAB](https://cilab.yonsei.ac.kr/) at [Yonsei University](https://www.yonsei.ac.kr/sc/index.do), Seoul, South Korea \
+*Research Intern*
+- Advisor: [Prof. Euntai Kim]
+- Autonomous System of Robots

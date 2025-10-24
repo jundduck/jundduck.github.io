@@ -1,10 +1,10 @@
 ---
 layout: post
-start_end: "Feb, 2023 - Aug, 2025"
+start_end: "Jul, 2024 - Oct, 2024"
 inline: true
 ---
 
-[Computer Vision Lab](http://cvlab.postech.ac.kr/lab/) at [POSTECH](https://postech.ac.kr/), Pohang, South Korea \
+[DAMIS Lab](https://sites.google.com/view/damislab) at [Yonsei University](https://www.yonsei.ac.kr/sc/index.do), Seoul, South Korea \
 *Research Intern*
-- Advisor: [Prof. Suha Kwak](https://suhakwak.github.io/)
-- Participate in research projects on active learning for visual recognition tasks. 
+- Advisor: [Prof. JaeSang Hyun] 
+- 3D Reconstruction. 

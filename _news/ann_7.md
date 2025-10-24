@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2025-07-22
+date: 2025-09-06
 inline: true
 ---
 
-🎉 Our [paper](https://arxiv.org/abs/2506.02882) introducing GaRA-SAM has been accepted for an oral presentation at the ICCV 2025 workshop on Building Foundation Models You Can Trust!
+🏆 Our Yonsei Drone Team won 1st place in the Robot Aircraft Competition among 51 participating teams!

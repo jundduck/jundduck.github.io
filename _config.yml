@@ -16,7 +16,7 @@ footer_text:
 keywords: junseok  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: 🦦 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: sushi # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://jundduck.github.io # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/
@@ -68,7 +68,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 github_username: jundduck # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: # your Twitter handle
-linkedin_username: yehogwon # your LinkedIn user name
+linkedin_username: jundduck # your LinkedIn user name
 scholar_userid: l17sgysAAAAJ # your Google Scholar ID
 # orcid_id: 0009-0000-3357-5140 # your ORCID ID
 orcid_id:  # your ORCID ID
@@ -273,7 +273,7 @@ max_author_limit: 10
 # -----------------------------------------------------------------------------
 
 imagemagick:
-  enabled: true # enables responsive images for your site (recomended, see https://github.com/alshedivat/al-folio/issues/537)
+  enabled: true # 10월 25일 새벽 1시 29분에 꺼놓음 # enables responsive images for your site (recomended, see https://github.com/alshedivat/al-folio/issues/537)
   widths:
     - 480
     - 800
