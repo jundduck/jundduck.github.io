@@ -1,0 +1,39 @@
+TODO
+
+5. publications 처럼 Projects 칸 따로 만들기
+
+
+
+
+
+
+
+새로운 거 추가
+1. _(새로운거) 폴더 만들기
+
+2. 그 안에 .md파일 만들기
+
+3. about.html에 새로운 거 쓰기
+
+4. about.md에 true 쓰기
+
+5. config.yaml에 collections에 추가
+
+
+
+
+
+
+
+수정
+> education -> _education/education-1.md에서 내용 수정
+
+> experience -> _experience/experience_1,2,3.md 내용 수정
+
+> honors -> _honors/honors_1.md 내용 수정
+
+> news -> _news/ann_1.md 내용 수정
+
+> 메일, 깃허브, 링크드인, 구글 스칼라 주소 수정 -> _config.yaml 수정
+
+CV -> header.html에 네비바에서 CV 수정

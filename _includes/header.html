@@ -43,6 +43,10 @@
                 {% endif %}
               {% endfor %}
 
+
+
+
+              
               <!-- About -->
               <li class="nav-item {% if page.permalink == '/' %}active{% endif %}">
                 <a class="nav-link" href="{{ '/' | relative_url }}">{{ about_title }}
@@ -63,8 +67,14 @@
               {%- endif %} -->
               <!-- CV -->
               <li class="nav-item">
-                <a class="nav-link" href="/assets/pdf/cv_yehogwon_251001.pdf" target="_blank"  rel="noopener noreferrer" class="float-right">Curriculum Vitae</a>
+                <a class="nav-link" href="/assets/pdf/Junseok_Lee_CV.pdf" target="_blank"  rel="noopener noreferrer" class="float-right">Curriculum Vitae</a>
               </li>
+
+
+
+
+
+
 
               <!-- Other pages -->
               {%- assign sorted_pages = site.pages | sort: "nav_order" -%}
@@ -100,6 +110,8 @@
               {% endfor -%}
               {%- if site.enable_darkmode %}
 
+
+              
               <!-- Toogle theme mode -->
               <li class="toggle-container">
                 <button id="light-toggle" title="Change theme">

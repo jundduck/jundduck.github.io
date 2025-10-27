@@ -40,38 +40,57 @@ layout: default
             {{ content }}
           </div>
 
+
+          <!-- News -->
           {% if page.news -%}
-            <!-- News -->
-            {%- include news.html %}
+          {%- include news.html %}
           {%- endif %}
 
-          {% if page.education -%}
+
           <!-- Education -->
+          {% if page.education -%}
           {%- include education.html %}
           {%- endif %}
           
-          {% if page.experience -%}
+
           <!-- Experience -->
+          {% if page.experience -%}
           {%- include experience.html %}
           {%- endif %}
           
-          {% if page.selected_papers -%}
-            <!-- Selected papers -->
-            {%- include selected_papers.html %}
+
+          <!-- Selected papers -->
+          {% if page.selected_papers -%}  
+          {%- include selected_papers.html %}
+          {%- endif %}
+
+
+          <!-- Competition -->
+          {% if page.competition -%}  
+          {%- include competition.html %}
+          {%- endif %}
+
+
+          <!-- Project -->
+          {% if page.project -%}  
+          {%- include project.html %}
           {%- endif %}
           
+
+          <!-- honors -->
           {% if page.honors -%}
-          <!-- Experience -->
           {%- include honors.html %}
           {%- endif %}
           
-          <!-- Professional services -->
-          {% if page.services -%}
-          {%- include services.html %}
-          {%- endif %}
 
-          {%- if page.social %}
+          <!-- Professional services -->
+          {% if page.services -%}          <!-- about.md에 services: true 가 설정된 경우에만 실행됨 -->
+          {%- include services.html %}     <!-- services.html 인클루드 파일을 불러와 실제 표나 목록을 렌더링 -->
+          {%- endif %}                     <!-- 조건문 종료 -->
+
+          
           <!-- Social -->
+          {%- if page.social %}
           <div class="social">
             <div class="contact-icons">
             {% include social.html %}

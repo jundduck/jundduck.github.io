@@ -1,15 +1,21 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
-@charset "utf-8";
+@charset "utf-8"; // 파일 인코딩 지정 (UTF-8 문자 인식용)
 
 // Dimensions
-$max-content-width: {{ site.max_width }};
+$max-content-width: {{ site.max_width }}; 
+// _config.yml 에 정의된 max_width 변수를 불러와서 Sass 변수로 저장함.
+// 예: 1000px, 1200px 등 사이트의 최대 본문 폭을 지정.
+
+// 아래는 실제 스타일 정의 파일들을 불러오는 부분.
+// 각각 _sass 폴더 안에 있는 .scss 파일을 import함.
+// 순서대로 불러오면서 “main.scss” 하나로 합쳐짐.
 
 @import
-  "variables",
-  "themes",
-  "layout",
-  "base",
-  "distill"
+  "variables",  // 사이트 전역 색상, 폰트 크기, 여백 등의 변수 정의 (_variables.scss)
+  "themes",     // 라이트/다크 테마 색상 정의 (_themes.scss)
+  "layout",     // 사이트의 전체 구조, 그리드, 반응형 레이아웃 정의 (_layout.scss)
+  "base",       // 본문, 헤더, 푸터, 카드, 블로그 등 공통 스타일 (_base.scss)
+  "distill"     // al-folio 테마의 Distill 포스트/논문 스타일 (distillpub 관련 디자인)
 ;

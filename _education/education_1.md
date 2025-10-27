@@ -1,9 +1,9 @@
 ---
 layout: post
-start_end: "Mar, 2022 - Aug, 2026"
+start_end: "Mar. 2022 - Aug. 2026"
 inline: true
 ---
 
 [Yonsei University](https://www.yonsei.ac.kr/sc/index.do), Seoul, South Korea \
-B.S. in Civil & Environmental Engineering\
-GPA: 3.3/4.3
+B.S. in Civil & Environmental Engineering
+

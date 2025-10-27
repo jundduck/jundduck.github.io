@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2025-06-05
+date: 2025-11-04
 inline: true
 ---
 
-🚗 We founded “YAX”, the first autonomous driving club at Yonsei University! (Advised by Professor Siho Kim)
+🚗 We founded “YAX”, the First Autonomous Driving Club at Yonsei University! (Advised by Prof: Siho Kim) 

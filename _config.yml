@@ -2,26 +2,26 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
+title: blank                     # the website title (if blank, full name will be used instead)
 first_name: Junseok
 middle_name: 
 last_name: Lee
 email: ryan082688@gmail.com
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
+description: >                   # the ">" symbol means to ignore newlines until "footer_text:"
   Junseok's personal webpage.
 footer_text: 
   # Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   # Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 # Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: junseok  # add your own keywords or leave empty
+keywords: junseok               # add your own keywords or leave empty
 
-lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: 🍣 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+lang: en                        # the language of your site (for example: en, fr, cn, ru, etc.)
+icon: 🍣                        # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://jundduck.github.io # the base hostname & protocol for your site
-baseurl:  # the subpath of your site, e.g. /blog/
-last_updated: false # set to true if you want to display last updated in the footer
-impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
+baseurl:                        # the subpath of your site, e.g. /blog/
+last_updated: false             # set to true if you want to display last updated in the footer
+impressum_path:                 # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
 # -----------------------------------------------------------------------------
 # Theme
@@ -69,19 +69,19 @@ github_username: jundduck # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: # your Twitter handle
 linkedin_username: jundduck # your LinkedIn user name
-scholar_userid: l17sgysAAAAJ # your Google Scholar ID
+scholar_userid: 1inReXYAAAAJ&hl=ko # your Google Scholar ID
 # orcid_id: 0009-0000-3357-5140 # your ORCID ID
-orcid_id:  # your ORCID ID
-medium_username: # your Medium username
-quora_username: # your Quora username
-publons_id: # your ID on Publons
+orcid_id:              # your ORCID ID
+medium_username:       # your Medium username
+quora_username:        # your Quora username
+publons_id:            # your ID on Publons
 research_gate_profile: # your profile on ResearchGate
-blogger_url: # your blogger URL
-work_url: # work page URL
-keybase_username: # your keybase user name
-wikidata_id: # your wikidata id
-dblp_url: # your DBLP profile url
-stackoverflow_id: #your stackoverflow id
+blogger_url:           # your blogger URL
+work_url:              # work page URL
+keybase_username:      # your keybase user name
+wikidata_id:           # your wikidata id
+dblp_url:              # your DBLP profile url
+stackoverflow_id:      # your stackoverflow id
 
 contact_note: >
 # You can even add a little note about which of these is the best way to reach you.
@@ -90,11 +90,11 @@ contact_note: >
 # Analytics and search engine verification
 # -----------------------------------------------------------------------------
 
-google_analytics:  # your Goole Analytics measurement ID (format: G-XXXXXXXXXX)
+google_analytics:     # your Goole Analytics measurement ID (format: G-XXXXXXXXXX)
 panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 
 google_site_verification:  # your google-site-verification ID (Google Search Console)
-bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
+bing_site_verification:    # out your bing-site-verification ID (Bing Webmaster)
 
 # -----------------------------------------------------------------------------
 # Blog
@@ -126,38 +126,61 @@ disqus_shortname: Junseok Lee # put your disqus shortname
 # -----------------------------------------------------------------------------
 
 collections:
-  news:
+  news:                          # `_news/` 폴더를 하나의 컬렉션으로 정의
     defaults:
-      layout: post
-    output: true
-    permalink: /news/:path/
+      layout: post               # 각 news 문서의 기본 레이아웃
+    output: true                 # 빌드된 사이트에 출력할지 여부
+    permalink: /news/:path/      # 각 항목의 고유 링크(폴더/파일명 기반)
+
+
   projects:
     output: true
     permalink: /projects/:path/
+
+
   education:
     defaults:
       layout: post
     output: true
     permalink: /education/:path/
+
+
   experience:
     defaults:
       layout: post
     output: true
     permalink: /experience/:path/
+
+
+  competition:
+    defaults:
+      layout: post
+    output: true
+    permalink: /competition/:path/
+
+  project:
+    defaults:
+      layout: post
+    output: true
+    permalink: /projects/:path/
+
   honors:
     defaults:
       layout: post
     output: true
     permalink: /honors/:path/
-  services: # New section for services experience
+
+
+  services:
     defaults:
       layout: post
     output: true
     permalink: /services/:path/
 
-news_scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-news_limit: 5 # leave blank to include all the news in the `_news` folder
-education_limit: 5
+
+news_scrollable: true 
+news_limit: 10        # 메인 페이지에 표시할 'News' 항목의 최대 개수
+education_limit: 10   # 메인 페이지에 표시할 'Education' 항목의 최대 개수
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -273,7 +296,7 @@ max_author_limit: 10
 # -----------------------------------------------------------------------------
 
 imagemagick:
-  enabled: true # 10월 25일 새벽 1시 29분에 꺼놓음 # enables responsive images for your site (recomended, see https://github.com/alshedivat/al-folio/issues/537)
+  enabled: false # 10월 25일 새벽 1시 29분에 꺼놓음 # enables responsive images for your site (recomended, see https://github.com/alshedivat/al-folio/issues/537)
   widths:
     - 480
     - 800
@@ -310,7 +333,7 @@ enable_math:                true   # enables math typesetting (uses MathJax)
 enable_tooltips:            false  # enables automatic tooltip links generated
                                    # for each section titles on pages and posts
 enable_darkmode:            true   # enables switching between light/dark modes
-enable_navbar_social:       true  # enables displaying social links in the
+enable_navbar_social:       true   # enables displaying social links in the
                                    # navbar on the about page
 enable_project_categories:  true   # enables categorization of projects into
                                    # multiple categories

@@ -1,0 +1,25 @@
+          
+          <div class="competition" style="margin-top:4rem; margin-bottom:4rem;"> <!-- ✅ 위아래 여백 추가 -->
+            <h2>Competitions</h2>
+            {% if site.competition != blank -%} 
+            <div class="table-responsive">
+              <table class="table table-sm table-borderless">
+              {%- assign competition = site.competition | reverse -%} 
+              {% for item in competition limit: site.competition_limit %} 
+                <tr>
+                  <th scope="row">{{ item.start_end }}</th>
+                  <td>
+                    {% if item.inline -%} 
+                      {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+                    {%- else -%} 
+                      <a class="competition-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+                    {%- endif %} 
+                  </td>
+                </tr>
+              {%- endfor %} 
+              </table>
+            </div>
+          {%- else -%} 
+            <p>No competition so far...</p>
+          {%- endif %} 
+          </div>

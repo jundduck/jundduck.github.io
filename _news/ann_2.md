@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2024-06-17
+date: 2025-06-25
 inline: true
 ---
 
-🇺🇸 I will start the Summer sessions at [University of California, Berkeley](https://www.berkeley.edu/). Can't wait to find out what a top school is like!
+🎉 Our paper (with CILAB) has been accepted to ICROS 2025!

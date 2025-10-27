@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2025-02-10
+date: 2024-10-28
 inline: true
 ---
 
-📜 Our [paper](https://yehogwon.github.io/csq-al/) on active learning has been uploaded on [arXiv](https://arxiv.org/abs/2502.04697).
+🏆 XYZ Innovation won 3rd place in Hyundai Asan Naum Foundation Climate Tech Start-up Competition!

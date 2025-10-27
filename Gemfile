@@ -12,7 +12,7 @@ group :jekyll_plugins do
     gem 'jekyll-sitemap'
     gem 'jekyll-target-blank'
     gem 'jemoji'
-    gem 'mini_racer'
+    # gem 'mini_racer'
     gem 'webrick'
 end
 

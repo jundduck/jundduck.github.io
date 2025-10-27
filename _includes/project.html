@@ -1,0 +1,25 @@
+          
+          <div class="project" style="margin-top:3rem; margin-bottom:3rem;">
+            <h2>Projects</h2>
+            {% if site.project != blank -%} 
+            <div class="table-responsive">
+              <table class="table table-sm table-borderless">
+              {%- assign project = site.project | reverse -%} 
+              {% for item in project limit: site.project_limit %} 
+                <tr>
+                  <th scope="row">{{ item.start_end }}</th>
+                  <td>
+                    {% if item.inline -%} 
+                      {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+                    {%- else -%} 
+                      <a class="project-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+                    {%- endif %} 
+                  </td>
+                </tr>
+              {%- endfor %} 
+              </table>
+            </div>
+          {%- else -%} 
+            <p>No project so far...</p>
+          {%- endif %} 
+          </div>
