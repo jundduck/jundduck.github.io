@@ -57,15 +57,14 @@ cid: 이 항목만의 고유 접두사. page.slug가 있으면 사용하고, 없
     <!-- 오른쪽: 텍스트 -->
     <div class="col-md-8 col-12 pl-md-3">
       <div class="font-weight-bold mb-1">
-        QRC Korea (Quadruped Robot Challenge) — <em>3rd Place</em>
+        End-to-End visual indoor drone navigation with foundation model
       </div>
 
-      <div class="text-muted"><strong>Participants:</strong> Junseok Lee, Teammate A, Teammate B</div>
-      <div class="text-muted">Institute of Control Robotics and Systems (ICROS), 2025</div>
+      <div class="text-muted"><strong>Participants:</strong> Junseok Lee ... and 10 Students of Yonsei Drone</div>
+      <div class="text-muted">24-Fall Project, Yonsei Drone</div>
 
       <p class="mt-2 mb-1">
-        This study presents a scrutiny recognition algorithm based on semantic segmentation
-        for autonomous drone victim detection in complex terrain.
+        Previously, distance-sensing sensors such as depth cameras were necessary for drone navigation. With the advancement of foundation models, we successfully accomplished indoor navigation using only a front-facing RGB image by leveraging the CrossFormer model.
       </p>
 
       <!-- 버튼들 (각 버튼이 cid 기반의 고유 id를 타깃팅) -->

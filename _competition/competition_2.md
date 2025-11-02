@@ -60,12 +60,11 @@ cid: 이 항목만의 고유 접두사. page.slug가 있으면 사용하고, 없
         QRC Korea (Quadruped Robot Challenge) — <em>3rd Place</em>
       </div>
 
-      <div class="text-muted"><strong>Participants:</strong> Junseok Lee, Teammate A, Teammate B</div>
+      <div class="text"><strong>Participants:</strong> Junseok Lee, MinJun Kang, SeongHyun Jin, HeeSeo Park, GaEun Lim</div>
       <div class="text-muted">Institute of Control Robotics and Systems (ICROS), 2025</div>
 
       <p class="mt-2 mb-1">
-        This study presents a scrutiny recognition algorithm based on semantic segmentation
-        for autonomous drone victim detection in complex terrain.
+        Drive using Unitree Go2 models in various terrain obstacle environments.
       </p>
 
       <!-- 버튼들 (각 버튼이 cid 기반의 고유 id를 타깃팅) -->
