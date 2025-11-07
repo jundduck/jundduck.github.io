@@ -48,7 +48,7 @@ cid: 이 항목만의 고유 접두사. page.slug가 있으면 사용하고, 없
   <div class="row no-gutters align-items-start">
     <!-- 왼쪽: 이미지 -->
     <div class="col-md-4 col-12 mb-3 mb-md-0">
-      <img src="{{ '/assets/img/robot_aircraft_competition.jpg' | relative_url }}"
+      <img src="{{ '/assets/gif/미션 수행.gif' | relative_url }}"
            alt="QRC Korea"
            class="img-fluid rounded z-depth-1"
            style="max-width:260px;">

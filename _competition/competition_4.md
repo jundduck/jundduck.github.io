@@ -4,6 +4,8 @@ title: QRC Korea (Quadruped Robot Challenge)
 inline: true
 ---
 
+
+
 {%- comment -%}
 cid: 이 항목만의 고유 접두사. page.slug가 있으면 사용하고, 없으면 title을 slugify 해서 사용.
 모든 collapse의 id / href를 이 cid로 네임스페이스화해서 충돌 방지.
@@ -48,7 +50,7 @@ cid: 이 항목만의 고유 접두사. page.slug가 있으면 사용하고, 없
   <div class="row no-gutters align-items-start">
     <!-- 왼쪽: 이미지 -->
     <div class="col-md-4 col-12 mb-3 mb-md-0">
-      <img src="{{ '/assets/img/YAD.jpg' | relative_url }}"
+      <img src="{{ '/assets/gif/주행.gif' | relative_url }}"
            alt="QRC Korea"
            class="img-fluid rounded z-depth-1"
            style="max-width:260px;">
