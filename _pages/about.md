@@ -13,7 +13,7 @@ profile:
 news: true             # _news 폴더의 항목들을 표시함
 selected_papers: true  # "selected=true"로 표시된 논문만 출력하는 Publications 섹션 포함
 competition: true      # _competition 폴더의 항목들을 표시함
-project: true         # _projects 폴더의 항목들을 표시함
+project: true          # _projects 폴더의 항목들을 표시함
 education: true        # _education 폴더의 항목들을 표시함
 experience: true       # _experience 폴더의 항목들을 표시함
 honors: true           # _honors 폴더의 항목들을 표시함
@@ -23,7 +23,7 @@ social: true           # 페이지 하단에 소셜 아이콘(LinkedIn, GitHub �
 
 I am a Undergraduate student at [Yonsei University](https://www.yonsei.ac.kr/sc/index.do), South Korea.
 
-My research interests are autonomous driving and robotics, with particular focus on world models. I aim to study how neural world models can improve navigation and decision making in complex, real world environments.
+My research interests are Reinforcement Learning, World Model, Navigation. I aim to study how neural world models can improve navigation and decision making in complex, real world environments. I am deeply fascinated by robotics and autonomous driving technologies, particularly the control and decision making of intelligent robots. I believe that legged robots such as quadrupeds and humanoids hold immense potential for performing a wide range of real-world tasks with adaptability and efficiency. I aspire to advance research in developing autonomous systems that can understand, learn, and act safely in complex real-world environments.
 
 
 Also, I like the tension and thrill that come with competitions.

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: QRC Korea (Quadruped Robot Challenge)
+title: Hyundai Asan Naum Foundation Climate Tech Start-up Competition
 inline: true
 ---
 
@@ -60,15 +60,22 @@ cid: 이 항목만의 고유 접두사. page.slug가 있으면 사용하고, 없
         Hyundai Asan Naum Foundation Climate Tech Start-up Competition — <em>3rd Place</em>
       </div>
 
+      <!-- Team Member -->
       <div class="text"><strong>Participants:</strong> Junseok Lee, Minseok Jang and Hyuna Ko, Oh Changmin</div>
+
+      <!-- Host -->
       <div class="text-muted">Hyundai Asan Naum Foundation and Yonsei University</div>
 
+      <!-- Brief Explanation -->
       <p class="mt-2 mb-1">
         This study presents a scrutiny recognition algorithm based on semantic segmentation
         for autonomous drone victim detection in complex terrain.
       </p>
 
-      <!-- 버튼들 (각 버튼이 cid 기반의 고유 id를 타깃팅) -->
+
+
+
+      <!-- 각 버튼들 따로 움직임
       <div class="links mt-3">
         <a class="btn btn-sm z-depth-0" data-toggle="collapse"
            href="#{{ cid }}-team"
@@ -86,7 +93,9 @@ cid: 이 항목만의 고유 접두사. page.slug가 있으면 사용하고, 없
            class="btn btn-sm z-depth-0">Project Page</a>
       </div>
 
-      <!-- 패널들 (id 역시 cid 기반으로 유니크) -->
+
+
+      <!-- 버튼들 -->
       <div id="{{ cid }}-team" class="collapse" aria-labelledby="btn-{{ cid }}-team">
         <div class="toggle-panel">
           <strong>Team Members</strong><br/>
@@ -104,9 +113,11 @@ cid: 이 항목만의 고유 접두사. page.slug가 있으면 사용하고, 없
       <div id="{{ cid }}-award" class="collapse" aria-labelledby="btn-{{ cid }}-award">
         <div class="toggle-panel">
           <strong>Result</strong><br/>
-          <em>3rd Place</em> — Final ranking among <b>51 teams</b>. 🏆
+          <em>3rd Place</em> — Final ranking among <b>51 teams</b>. 
         </div>
       </div>
+
+
     </div>
   </div>
 </div>

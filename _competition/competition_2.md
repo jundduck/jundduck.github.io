@@ -57,17 +57,23 @@ cid: 이 항목만의 고유 접두사. page.slug가 있으면 사용하고, 없
     <!-- 오른쪽: 텍스트 -->
     <div class="col-md-8 col-12 pl-md-3">
       <div class="font-weight-bold mb-1">
-        QRC Korea (Quadruped Robot Challenge) — <em>3rd Place</em>
+        QRC Korea (Quadruped Robot Challenge) — <em>3rd Place🏆</em>
       </div>
 
+      <!-- Team Member -->
       <div class="text"><strong>Participants:</strong> Junseok Lee, MinJun Kang, SeongHyun Jin, HeeSeo Park, GaEun Lim</div>
+
+      <!-- Host -->
       <div class="text-muted">Institute of Control Robotics and Systems (ICROS), 2025</div>
 
+      <!-- Brief Explanation -->
       <p class="mt-2 mb-1">
         Drive using Unitree Go2 models in various terrain obstacle environments.
       </p>
 
-      <!-- 버튼들 (각 버튼이 cid 기반의 고유 id를 타깃팅) -->
+
+
+      <!-- 각 버튼들 따로 움직임
       <div class="links mt-3">
         <a class="btn btn-sm z-depth-0" data-toggle="collapse"
            href="#{{ cid }}-team"
@@ -85,7 +91,9 @@ cid: 이 항목만의 고유 접두사. page.slug가 있으면 사용하고, 없
            class="btn btn-sm z-depth-0">Project Page</a>
       </div>
 
-      <!-- 패널들 (id 역시 cid 기반으로 유니크) -->
+
+
+      <!-- 버튼들 -->
       <div id="{{ cid }}-team" class="collapse" aria-labelledby="btn-{{ cid }}-team">
         <div class="toggle-panel">
           <strong>Team Members</strong><br/>
@@ -103,9 +111,10 @@ cid: 이 항목만의 고유 접두사. page.slug가 있으면 사용하고, 없
       <div id="{{ cid }}-award" class="collapse" aria-labelledby="btn-{{ cid }}-award">
         <div class="toggle-panel">
           <strong>Result</strong><br/>
-          <em>3rd Place</em> — Final ranking among <b>51 teams</b>. 🏆
+          <em>3rd Place</em> — Final ranking among <b>51 teams</b>. 
         </div>
       </div>
+
     </div>
   </div>
 </div>

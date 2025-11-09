@@ -2,5 +2,10 @@
     "todo-tree.filtering.excludeGlobs": [
         "**/assets/",
         "**/_sass/",
+    ],
+    "spellright.language": [],
+    "spellright.documentTypes": [
+        "latex",
+        "plaintext"
     ]
 }

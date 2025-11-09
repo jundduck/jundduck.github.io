@@ -1,6 +1,6 @@
 ---
 layout: post
-title: QRC Korea (Quadruped Robot Challenge)
+title: HL FMA 2025 Autonomous Driving Competition
 inline: true
 ---
 
@@ -62,14 +62,22 @@ cid: 이 항목만의 고유 접두사. page.slug가 있으면 사용하고, 없
         HL FMA 2025 Autonomous Driving Competition — <em>4th Place</em>
       </div>
 
+      <!-- Team Member -->
       <div class="text"><strong>Participants:</strong> Junseok Lee, Hyeonseo Oh, Woongje Jo, Jeanho Kim </div>
+
+      <!-- Host -->
       <div class="text-muted">HL Mando, HL Klemove</div>
 
+
+      <!-- Brief Explanation -->
       <p class="mt-2 mb-1">
         GPS-RTK-Based Hennes Vehicle Modification Self-Driving Competition.
       </p>
 
-      <!-- 버튼들 (각 버튼이 cid 기반의 고유 id를 타깃팅) -->
+
+
+
+      <!-- 각 버튼들 따로 움직임
       <div class="links mt-3">
         <a class="btn btn-sm z-depth-0" data-toggle="collapse"
            href="#{{ cid }}-team"
@@ -87,7 +95,9 @@ cid: 이 항목만의 고유 접두사. page.slug가 있으면 사용하고, 없
            class="btn btn-sm z-depth-0">Project Page</a>
       </div>
 
-      <!-- 패널들 (id 역시 cid 기반으로 유니크) -->
+
+
+      <!-- 버튼들 -->
       <div id="{{ cid }}-team" class="collapse" aria-labelledby="btn-{{ cid }}-team">
         <div class="toggle-panel">
           <strong>Team Members</strong><br/>
@@ -105,9 +115,11 @@ cid: 이 항목만의 고유 접두사. page.slug가 있으면 사용하고, 없
       <div id="{{ cid }}-award" class="collapse" aria-labelledby="btn-{{ cid }}-award">
         <div class="toggle-panel">
           <strong>Result</strong><br/>
-          <em>3rd Place</em> — Final ranking among <b>51 teams</b>. 🏆
+          <em>3rd Place</em> — Final ranking among <b>51 teams</b>. 
         </div>
       </div>
+
+
     </div>
   </div>
 </div>
