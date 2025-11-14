@@ -57,7 +57,7 @@ cid: 이 항목만의 고유 접두사. page.slug가 있으면 사용하고, 없
     <!-- 오른쪽: 텍스트 -->
     <div class="col-md-8 col-12 pl-md-3">
       <div class="font-weight-bold mb-1">
-        Hyundai Asan Naum Foundation Climate Tech Start-up Competition — <em>3rd Place</em>
+        Hyundai Asan Naum Foundation Climate Tech Start-up Competition — <em>3rd Place🥉</em>
       </div>
 
       <!-- Team Member -->

@@ -59,7 +59,7 @@ cid: 이 항목만의 고유 접두사. page.slug가 있으면 사용하고, 없
     <!-- 오른쪽: 텍스트 -->
     <div class="col-md-8 col-12 pl-md-3">
       <div class="font-weight-bold mb-1">
-        F1 Tenth Korea Championship
+        F1 Tenth Korea Championship — <em>on going</em>
       </div>
 
       <!-- Team Member -->
