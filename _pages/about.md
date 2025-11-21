@@ -23,7 +23,7 @@ social: true           # 페이지 하단에 소셜 아이콘(LinkedIn, GitHub �
 
 I am a Undergraduate student at [Yonsei University](https://www.yonsei.ac.kr/sc/index.do), South Korea.
 
-My research interests are Reinforcement Learning, World Model, Navigation. I aim to study how neural world models can improve navigation and decision making in complex, real world environments. I am deeply fascinated by robotics and autonomous driving technologies, particularly the control and decision making of intelligent robots. I believe that legged robots such as quadrupeds and humanoids hold immense potential for performing a wide range of real-world tasks with adaptability and efficiency. I aspire to advance research in developing autonomous systems that can understand, learn, and act safely in complex real-world environments.
+My research interests are Reinforcement Learning, World Model, Navigation. I aim to study how neural world models can improve navigation and decision making in complex, real world environments. I am deeply fascinated by robotics and autonomous driving technologies, particularly the control and decision making of intelligent robots. I believe that legged robots such as quadrupeds and humanoids hold immense potential for performing a wide range of real-world tasks with adaptability and efficiency. I aspire to advance research in developing autonomous systems that can understand, learn, and act safely in complex real-world environments. [Intern](https://www.canva.com/design/DAG4mKl-zeI/g25yrm_nRXjKAyS-0nbj3A/edit)
 
 
 Also, I like the tension and thrill that come with competitions.
