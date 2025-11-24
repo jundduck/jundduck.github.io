@@ -103,7 +103,8 @@ _config.yml에 theme: jekyll-theme-primer 라면,
 
 🧪 5단계: 로컬에서 사이트 실행하기
 bundle exec jekyll serve
-안되면 토글 bundle exec jekyll serve --port 4001
+안되면 토글 
+bundle exec jekyll serve --port 4001
 
 실행 후 이런 메시지가 뜨면 성공 👇
 
@@ -111,3 +112,62 @@ Server address: http://127.0.0.1:4000/
 
 
 👉 브라우저에서 http://localhost:4000 열면 실제 사이트가 로컬에서 그대로 보입니다.
+
+
+
+
+# 🌐 Junseok Lee — Personal Homepage
+
+This repository contains the source code for **[my homepage](https://jundduck.github.io)**.
+
+> **Acknowledgements**  
+> This homepage is built using the [al-folio](https://github.com/alshedivat/al-folio) Jekyll theme.  
+> It is further customized based on the structure of **[Sehyun Hwang](https://sehyun03.github.io/)'s homepage**.
+
+---
+
+# 📘 Usage Guide for Beginners
+
+## 🆕 Adding New Sections
+
+새로운 콘텐츠 섹션을 추가하는 방법은 다음과 같습니다:
+
+1. **폴더 생성**  
+   `_newfolder/` 같이 새 폴더 만들기  
+2. **콘텐츠 파일 작성**  
+   폴더 안에 `.md` 파일 생성 (`item-1.md` 등)  
+3. **about.html 수정**  
+   새로운 섹션을 about.html에서 불러오도록 코드 추가  
+4. **about.md에서 활성화**  
+   새로운 섹션의 표시 여부를 `true`로 설정  
+5. **_config.yml 수정**  
+   `collections:` 아래에 새 컬렉션 등록
+
+---
+
+## ✏️ Editing Existing Sections
+
+각 항목은 모두 `/_[collection]/` 내부에서 개별 `.md` 파일로 관리됩니다.
+
+| Section | Path |
+|--------|------|
+| 🎓 Education | `_education/education-1.md` |
+| 💼 Experience | `_experience/experience_1.md`, `_experience_2.md` ... |
+| 🏅 Honors & Awards | `_honors/honors_1.md` |
+| 📰 News | `_news/ann_1.md` |
+| ✉️ Email / GitHub / LinkedIn / Google Scholar | `_config.yml` |
+| 📄 CV 링크 | `_includes/header.html` |
+
+---
+
+# 💻 Local Development Guide
+
+로컬에서 사이트를 실행하여 확인하고 GitHub에 배포하는 전체 과정입니다.
+
+---
+
+## 🔐 0. Git 계정 설정
+
+```bash
+git config --global user.name "Junseok Lee"
+git config --global user.email "ryan082688@gmail.com"
