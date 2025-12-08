@@ -23,9 +23,12 @@ social: true           # 페이지 하단에 소셜 아이콘(LinkedIn, GitHub �
 
 I am a Undergraduate student at [Yonsei University](https://www.yonsei.ac.kr/sc/index.do), South Korea.
 
-My research interests are Reinforcement Learning, World Model, Navigation. I aim to study how neural world models can improve navigation and decision making in complex, real world environments. I am deeply fascinated by robotics and autonomous driving technologies, particularly the control and decision making of intelligent robots. I believe that legged robots such as quadrupeds and humanoids hold immense potential for performing a wide range of real-world tasks with adaptability and efficiency. I aspire to advance research in developing autonomous systems that can understand, learn, and act safely in complex real-world environments.
+My research interest lies in developing robotic systems that meaningfully improve people’s lives. While producing innovative papers and achieving higher performance in algorithms are certainly important, I place greater value on how these technologies can be applied to real human needs and provide tangible assistance.
 
+Having experienced Paraplegia in the past, I deeply understand how mobility limitations can affect one’s independence and quality of life. This experience motivates me to create assistive and rehabilitation robots that can offer real support to individuals with physical challenges.
 
 Also, I like the tension and thrill that come with competitions.
+
+Research Areas: [Reinforcement Learning](), [Wearable Robotics]()
 
 Email: [ryan082688@gmail.com](mailto:ryan082688@gmail.com)
