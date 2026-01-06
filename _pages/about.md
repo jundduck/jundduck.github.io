@@ -23,12 +23,13 @@ social: true           # 페이지 하단에 소셜 아이콘(LinkedIn, GitHub �
 
 I am a Undergraduate student at [Yonsei University](https://www.yonsei.ac.kr/sc/index.do), South Korea.
 
-My research interest lies in developing robotic systems that meaningfully improve people’s lives. While producing innovative papers and achieving higher performance in algorithms are certainly important, I place greater value on how these technologies can be applied to real human needs and provide tangible assistance.
+My research interest lies in developing autonomous driving and mobility systems that meaningfully improve people’s lives. While improving technical performance is very important, I focus more how these technologies can be applied in real world environments and what practical benefits can be provided.
 
-Having experienced Paraplegia in the past, I deeply understand how mobility limitations can affect one’s independence and quality of life. This experience motivates me to create assistive and rehabilitation robots that can offer real support to individuals with physical challenges.
+Having experienced Paraplegia in the past, I deeply understand how mobility limitations can affect one’s independence and quality of life. This experience motivates me to develop a stronger interest in mobility technologies that can improve safety and accessibility not only for the general public, but also for transportation-vulnerable individuals, including people with mobility impairments.
+
 
 Also, I like the tension and thrill that come with competitions.
 
-Research Areas: [Reinforcement Learning](), [Wearable Robotics]()
+Research Areas: [Autonomous Driving](), [World Model]()
 
 Email: [ryan082688@gmail.com](mailto:ryan082688@gmail.com)
