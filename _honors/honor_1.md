@@ -17,7 +17,7 @@ inline: true
 
 🏆 **[QRC Korea (Quadruped Robot Challenge)](https://2025.icros.org/?page_id=1780)**
 - 3rd Place
-- (Jun, 2025) From the department of Computer Science and Engineering at POSTECH.
+- (Jun, 2025) From ICROS 2025.
 
 🏆 **[Hyundai Asan Naum Foundation Climate Tech Start-up Competition](https://anf-maru.notion.site/d9aa61016ee84b1d8ef54c40438f66db)**
 - 3rd Place
