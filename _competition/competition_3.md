@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: post
 title: Robot Aircraft Competition
 inline: true
@@ -118,4 +118,4 @@ cid: 이 항목만의 고유 접두사. page.slug가 있으면 사용하고, 없
 
     </div>
   </div>
-</div>
+</div> -->
