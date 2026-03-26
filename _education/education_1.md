@@ -1,9 +1,8 @@
 ---
 layout: post
-start_end: "Mar. 2022 - Aug. 2026"
+start_end: "Mar. 2019 - Feb. 2024"
 inline: true
 ---
 
-[Yonsei University](https://www.yonsei.ac.kr/sc/index.do), Seoul, South Korea \
-B.S. in Civil & Environmental Engineering
-
+[Dongguk University](https://www.dongguk.edu/main), Seoul, South Korea \
+B.S. in Statistics <span style="font-size: 0.8em;">(Withdrawal for Transfer)</span>
