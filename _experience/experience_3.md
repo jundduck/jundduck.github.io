@@ -6,5 +6,5 @@ inline: true
 
 [CILAB](https://cilab.yonsei.ac.kr/) at [Yonsei University](https://www.yonsei.ac.kr/sc/index.do), Seoul, South Korea \
 *Research Intern*
-- Advisor: [Prof. Euntai Kim]
+- Advisor: Prof. Euntai Kim
 - Autonomous System of Robots
