@@ -1,5 +1,5 @@
           
-          <div class="project" style="margin-top:3rem; margin-bottom:3rem;">
+          <div class="project">
             <h2>Projects</h2>
             {% if site.project != blank -%} 
             <div class="table-responsive">
@@ -7,8 +7,12 @@
               {%- assign project = site.project | reverse -%} 
               {% for item in project limit: site.project_limit %} 
                 <tr>
+                  {% if item.start_end %}
                   <th scope="row">{{ item.start_end }}</th>
                   <td>
+                  {% else %}
+                  <td colspan="2">
+                  {% endif %}
                     {% if item.inline -%} 
                       {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
                     {%- else -%} 

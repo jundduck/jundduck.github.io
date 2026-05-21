@@ -133,11 +133,6 @@ collections:
     permalink: /news/:path/      # 각 항목의 고유 링크(폴더/파일명 기반)
 
 
-  projects:
-    output: true
-    permalink: /projects/:path/
-
-
   education:
     defaults:
       layout: post
@@ -179,7 +174,7 @@ collections:
 
 
 news_scrollable: true 
-news_limit: 10        # 메인 페이지에 표시할 'News' 항목의 최대 개수
+news_limit: 4         # 메인 페이지에 표시할 'News' 항목의 최대 개수
 education_limit: 10   # 메인 페이지에 표시할 'Education' 항목의 최대 개수
 
 # -----------------------------------------------------------------------------

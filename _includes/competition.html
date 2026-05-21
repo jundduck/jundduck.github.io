@@ -1,5 +1,5 @@
           
-          <div class="competition" style="margin-top:4rem; margin-bottom:4rem;"> <!-- ✅ 위아래 여백 추가 -->
+          <div class="competition">
             <h2>Competitions</h2>
             {% if site.competition != blank -%} 
             <div class="table-responsive">
@@ -7,8 +7,12 @@
               {%- assign competition = site.competition | reverse -%} 
               {% for item in competition limit: site.competition_limit %} 
                 <tr>
+                  {% if item.start_end %}
                   <th scope="row">{{ item.start_end }}</th>
                   <td>
+                  {% else %}
+                  <td colspan="2">
+                  {% endif %}
                     {% if item.inline -%} 
                       {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
                     {%- else -%} 

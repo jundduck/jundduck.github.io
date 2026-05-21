@@ -13,7 +13,7 @@ profile:
 news: true             # _news 폴더의 항목들을 표시함
 selected_papers: true  # "selected=true"로 표시된 논문만 출력하는 Publications 섹션 포함
 competition: true      # _competition 폴더의 항목들을 표시함
-project: true          # _projects 폴더의 항목들을 표시함
+project: true          # _project 폴더의 항목들을 표시함
 education: true        # _education 폴더의 항목들을 표시함
 experience: true       # _experience 폴더의 항목들을 표시함
 honors: true           # _honors 폴더의 항목들을 표시함

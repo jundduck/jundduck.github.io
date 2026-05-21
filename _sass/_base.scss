@@ -454,6 +454,83 @@ footer.sticky-bottom {
   }
 }
 
+// Project
+
+.project {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+
+  table {
+    margin-bottom: 0;
+  }
+
+  td {
+    vertical-align: top;
+  }
+}
+
+.project-entry {
+  .project-media {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    img {
+      display: block;
+      width: 100%;
+      max-width: 260px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+  }
+}
+
+// News
+
+.news {
+  .news-scroll {
+    max-height: 12rem;
+    overflow-y: auto;
+    padding-right: 0.25rem;
+
+    table {
+      margin-bottom: 0;
+    }
+  }
+}
+
+
+// Competitions
+
+.competition {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+
+  table {
+    margin-bottom: 0;
+  }
+
+  td {
+    vertical-align: top;
+  }
+}
+
+.competition-entry {
+  .competition-media {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    img {
+      display: block;
+      width: 100%;
+      max-width: 260px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+  }
+}
+
 
 // Publications
 
