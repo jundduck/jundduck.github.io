@@ -470,18 +470,37 @@ footer.sticky-bottom {
 }
 
 .project-entry {
+  .row {
+    justify-content: flex-start;
+  }
+
   .project-media {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-start;
 
     img {
       display: block;
       width: 100%;
       max-width: 240px;
-      margin-right: auto;
-      margin-left: auto;
+      margin-right: 0;
+      margin-left: 0;
     }
+  }
+}
+
+@media (min-width: 768px) {
+  .project-entry .project-media,
+  .competition-entry .competition-media {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+
+  .project-entry .col-md-8,
+  .competition-entry .col-md-8 {
+    flex: 0 0 75%;
+    max-width: 75%;
+    padding-left: 30px !important;
   }
 }
 
@@ -535,17 +554,21 @@ footer.sticky-bottom {
 }
 
 .competition-entry {
+  .row {
+    justify-content: flex-start;
+  }
+
   .competition-media {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-start;
 
     img {
       display: block;
       width: 100%;
       max-width: 240px;
-      margin-right: auto;
-      margin-left: auto;
+      margin-right: 0;
+      margin-left: 0;
     }
   }
 }
@@ -583,6 +606,30 @@ footer.sticky-bottom {
 
     li {
       margin-bottom: 1rem;
+      .publication-image {
+        margin-bottom: 0.75rem;
+
+        figure {
+          margin: 0;
+        }
+
+        img {
+          width: 100%;
+          max-width: 240px;
+        }
+      }
+      @media (min-width: 768px) {
+        .publication-image {
+          flex: 0 0 25%;
+          max-width: 25%;
+        }
+
+        .publication-details {
+          flex: 0 0 75%;
+          max-width: 75%;
+          padding-left: 30px !important;
+        }
+      }
       .preview {
         width: 100%;
         min-width: 80px;
