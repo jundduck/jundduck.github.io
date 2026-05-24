@@ -1,11 +1,5 @@
 # Junseok Lee's Personal Homepage
 
-This repository contains the source code for **[Junseok Lee's homepage](https://jundduck.github.io)**.
-
-> **Acknowledgements**  
-> This homepage is built on the [al-folio](https://github.com/alshedivat/al-folio) Jekyll theme and further customized based on the structure of [Sehyun Hwang's homepage](https://sehyun03.github.io/).
-
-
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## 🚀 Quick Start (Jekyll Setup)
 

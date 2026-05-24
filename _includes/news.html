@@ -3,10 +3,13 @@
             <h2>News</h2>
             {% if site.news != blank -%} 
             {%- assign news_size = site.news | size -%}
-            <div class="table-responsive{% if site.news_scrollable and news_size > 3 %} news-scroll{% endif %}">
+            {%- assign visible_news_count = site.news_limit | default: 4 -%}
+            <div class="table-responsive{% if site.news_scrollable and news_size > visible_news_count %} news-scroll{% endif %}">
               <table class="table table-sm table-borderless">
               {%- assign news = site.news | sort: "date" | reverse -%}
-              {% if site.news_limit %}
+              {% if site.news_scrollable %}
+              {% assign news_limit = news_size %}
+              {% elsif site.news_limit %}
               {% assign news_limit = site.news_limit %}
               {% else %}
               {% assign news_limit = news_size %}
