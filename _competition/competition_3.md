@@ -29,6 +29,13 @@ inline: true
       <p class="mt-2 mb-1">
         VTOL aircraft and Autonomous Flight, recognition and rescue, and use of robot grippers.
       </p>
+
+      <div class="links">
+        <a href="https://www.youtube.com/watch?v=st1-NGb6fO4" class="btn btn-sm z-depth-0" role="button">Demo</a>
+        <a href="{{ '/assets/pdf/awards/robot-aircraft-award.pdf' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Award</a>
+        <a href="https://www.jinju.news/front/news/view.do?articleId=ARTICLE_00038106" class="btn btn-sm z-depth-0" role="button">News</a>
+        <a href="https://cafe.naver.com/koreauav" class="btn btn-sm z-depth-0" role="button">Official</a>
+      </div>
     </div>
   </div>
 </div>

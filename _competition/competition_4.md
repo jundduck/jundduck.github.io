@@ -32,6 +32,13 @@ inline: true
       <p class="mt-2 mb-1">
         GPS-RTK-Based Hennes Vehicle Modification Self-Driving Competition.
       </p>
+
+      <div class="links">
+        <a class="btn btn-sm z-depth-0 disabled" role="button" aria-disabled="true" tabindex="-1">Demo</a>
+        <a href="{{ '/assets/pdf/awards/hlfma-2025-award.pdf' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Award</a>
+        <a href="https://www.kado.net/news/articleView.html?idxno=2008223" class="btn btn-sm z-depth-0" role="button">News</a>
+        <a href="https://cafe.naver.com/hlfma" class="btn btn-sm z-depth-0" role="button">Official</a>
+      </div>
     </div>
   </div>
 </div>

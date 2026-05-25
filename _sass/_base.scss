@@ -571,10 +571,46 @@ footer.sticky-bottom {
       margin-left: 0;
     }
   }
+
 }
 
 
 // Publications
+
+.links {
+  a.btn {
+    color: var(--global-text-color);
+    border: 1px solid var(--global-text-color);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+
+    &:hover {
+      color: var(--global-theme-color);
+      border-color: var(--global-theme-color);
+    }
+
+    &.disabled {
+      cursor: pointer;
+      opacity: 1;
+      pointer-events: auto;
+    }
+  }
+}
+
+.competition-entry .links {
+  margin-top: 0.65rem;
+
+  a.btn {
+    margin-right: 0.75rem;
+    margin-bottom: 0.25rem;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
 
 .publications {
   margin-top: 2rem;
@@ -677,20 +713,6 @@ footer.sticky-bottom {
           &:hover {
               color: var(--global-text-color);
               border-bottom: 1px dashed var(--global-text-color);
-          }
-        }
-      }
-      .links {
-        a.btn {
-          color: var(--global-text-color);
-          border: 1px solid var(--global-text-color);
-          padding-left: 1rem;
-          padding-right: 1rem;
-          padding-top: 0.25rem;
-          padding-bottom: 0.25rem;
-          &:hover {
-            color: var(--global-theme-color);
-            border-color: var(--global-theme-color);
           }
         }
       }

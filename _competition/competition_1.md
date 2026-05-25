@@ -30,6 +30,14 @@ inline: true
         This study presents a scrutiny recognition algorithm based on semantic segmentation
         for autonomous drone victim detection in complex terrain.
       </p>
+
+      <div class="links">
+        <a class="btn btn-sm z-depth-0 disabled" role="button" aria-disabled="true" tabindex="-1">Demo</a>
+        <a class="btn btn-sm z-depth-0 disabled" role="button" aria-disabled="true" tabindex="-1">Award</a>
+        <a href="https://blog.naver.com/asan_nanum/223661612291" class="btn btn-sm z-depth-0" role="button">News</a>
+        <a href="https://univerct.asan-nanum.org/" class="btn btn-sm z-depth-0" role="button">Official</a>
+      </div>
+
     </div>
   </div>
 </div>

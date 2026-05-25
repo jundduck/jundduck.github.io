@@ -32,6 +32,14 @@ inline: true
       <p class="mt-2 mb-1">
         End-to-end Autonomous Driving Racing (MORAI Sim) & Real Car Racing (Yongin Speedway).
       </p>
+
+      <div class="links">
+        <a class="btn btn-sm z-depth-0 disabled" role="button" aria-disabled="true" tabindex="-1">Demo</a>
+        <a class="btn btn-sm z-depth-0 disabled" role="button" aria-disabled="true" tabindex="-1">Award</a>
+        <a href="https://v.daum.net/v/20260512205305353?f=p" class="btn btn-sm z-depth-0" role="button">News</a>
+        <a href="https://autonomouscar.or.kr/" class="btn btn-sm z-depth-0" role="button">Official</a>
+      </div>
+
     </div>
   </div>
 </div>

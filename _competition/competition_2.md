@@ -29,6 +29,13 @@ inline: true
       <p class="mt-2 mb-1">
         Drive using Unitree Go2 models in various terrain obstacle environments.
       </p>
+
+      <div class="links">
+        <a class="btn btn-sm z-depth-0 disabled" role="button" aria-disabled="true" tabindex="-1">Demo</a>
+        <a href="{{ '/assets/pdf/awards/qrc-korea-award.pdf' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Award</a>
+        <a href="https://www.irobotnews.com/news/articleView.html?idxno=40871" class="btn btn-sm z-depth-0" role="button">News</a>
+        <a href="https://2025.icros.org/?page_id=1780" class="btn btn-sm z-depth-0" role="button">Official</a>
+      </div>
     </div>
   </div>
 </div>
