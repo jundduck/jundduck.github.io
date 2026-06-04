@@ -18,7 +18,7 @@ inline: true
     <!-- 오른쪽: 텍스트 -->
     <div class="col-md-8 col-12 pl-md-3">
       <div class="font-weight-bold mb-1">
-        A1 Autonomous Car Challenge — <em>Ongoing</em>
+        A1 Autonomous Car Challenge — <em>TOP 10</em>
       </div>
 
       <!-- Team Member -->
