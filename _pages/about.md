@@ -28,6 +28,6 @@ My research interest lies in developing autonomous driving and mobility systems 
 Having experienced Paraplegia in the past, I deeply understand how mobility limitations can affect one’s independence and quality of life. This experience motivates me to develop a stronger interest in mobility technologies that can improve safety and accessibility not only for the general public, but also for transportation vulnerable individuals, including people with mobility impairments.
 
 
-Research Areas: [Autonomous Driving](), [World Model]()
+Research Areas: [Autonomous Driving](),[Robotics](), [World Model]()
 
 Email: [ryan082688@gmail.com](mailto:ryan082688@gmail.com)

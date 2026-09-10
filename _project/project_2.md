@@ -1,6 +1,6 @@
 ---
 layout: post
-title: F1TENTH Autonomous Racing
+title: UAV-based 3D Reconstruction of Yonsei University Engineering Hall
 inline: true
 ---
 
@@ -8,19 +8,19 @@ inline: true
   <div class="row no-gutters align-items-start">
     <!-- 왼쪽: 이미지 -->
     <div class="col-md-4 col-12 mb-3 mb-md-0 project-media">
-      <img src="{{ '/assets/gif/F1 Test.gif' | relative_url }}"
-           alt="F1TENTH Autonomous Racing"
+      <img src="{{ '/assets/gif/3DGS.gif' | relative_url }}"
+           alt="UAV-based 3D Reconstruction of Yonsei University Engineering Hall"
            class="img-fluid rounded z-depth-1">
     </div>
 
     <!-- 오른쪽: 텍스트 -->
     <div class="col-md-8 col-12 pl-md-3">
       <div class="font-weight-bold mb-1">
-        F1TENTH Scale Autonomous Racing
+        UAV-based 3D Reconstruction of Yonsei University Engineering Hall
       </div>
 
       <!-- Team Member -->
-      <div class="text"><strong>Participants:</strong> Junseok Lee, Hyeonseo Oh, Woongje Jo, Jeanho Kim </div>
+      <div class="text"><strong>Participants:</strong> Junseok Lee </div>
 
       <!-- Host -->
       <div class="text-muted"></div>
@@ -28,7 +28,7 @@ inline: true
 
       <!-- Brief Explanation -->
       <p class="mt-2 mb-1">
-        Autonomous Driving F1 vehicle using Reinforcement Learning and SLAM.
+        3D reconstruction of Yonsei University Engineering Hall using drone-captured imagery.
       </p>
     </div>
   </div>

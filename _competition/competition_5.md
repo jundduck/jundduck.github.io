@@ -18,7 +18,7 @@ inline: true
     <!-- 오른쪽: 텍스트 -->
     <div class="col-md-8 col-12 pl-md-3">
       <div class="font-weight-bold mb-1">
-        A1 Autonomous Car Challenge — <em>TOP 10</em>
+        A1 Autonomous Car Challenge — <em>6th Place out of 26 Teams</em>
       </div>
 
       <!-- Team Member -->
@@ -30,13 +30,13 @@ inline: true
 
       <!-- Brief Explanation -->
       <p class="mt-2 mb-1">
-        End-to-end Autonomous Driving Racing (MORAI Sim) & Real Car Racing (Yongin Speedway).
+        End-to-end Autonomous Driving Racing (MORAI Sim) & (Yongin Speedway).
       </p>
 
       <div class="links">
         <a class="btn btn-sm z-depth-0 disabled" role="button" aria-disabled="true" tabindex="-1">Demo</a>
         <a class="btn btn-sm z-depth-0 disabled" role="button" aria-disabled="true" tabindex="-1">Award</a>
-        <a href="https://v.daum.net/v/20260512205305353?f=p" class="btn btn-sm z-depth-0" role="button">News</a>
+        <a href="https://wvzine.com/?p=6015" class="btn btn-sm z-depth-0" role="button">News</a>
         <a href="https://autonomouscar.or.kr/" class="btn btn-sm z-depth-0" role="button">Official</a>
       </div>
 
