@@ -40,6 +40,12 @@
           <!-- Author -->
           <div class="author">
           {% assign author_array_size = entry.author_array | size %}
+          {% assign equal_contribution_count = 0 %}
+          {% for author in entry.author_array %}
+            {% if author.last contains '*' or author.first contains '*' %}
+              {% assign equal_contribution_count = equal_contribution_count | plus: 1 %}
+            {% endif %}
+          {% endfor %}
 
           {%- if site.max_author_limit and author_array_size > site.max_author_limit %}
             {% assign author_array_limit = site.max_author_limit %}
@@ -72,7 +78,6 @@
                   {{author.first}} {{author.last}}
                 {%- endif -%}
               {%- endif -%}
-              {%- if entry.equal_contrib and forloop.index <= 2 -%}*{%- endif -%}
             {%- endcapture -%}
 
             {%- if forloop.length == 1 -%}
@@ -120,11 +125,10 @@
             >{{more_authors_hide}}</span>
           {% endif %}
 
-          <!-- {% if entry.equal_contrib -%}
-            {{" (*equal contribution)"}}
-          {%- endif %} -->
-          
           </div>
+          {% if equal_contribution_count >= 2 %}
+          <div class="equal-contribution"><small>* indicates equal contribution.</small></div>
+          {% endif %}
 
 
           <!-- Journal/Book title and date -->

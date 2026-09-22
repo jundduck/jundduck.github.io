@@ -6,7 +6,6 @@
       {%- assign scholarships = site.scholarships | sort: 'date' | reverse -%}
       {% for item in scholarships %}
       <tr>
-        <th scope="row" style="white-space:nowrap;">{{ item.start_end }}</th>
         <td>
           {% if item.inline -%}
             {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}

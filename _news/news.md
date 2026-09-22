@@ -18,7 +18,7 @@ entries:
   
   - date: "2025-09-28"
     content: >-
-      🏆 [YAX](https://www.instagram.com/yonsei_drone/) won 4th Place the HL FMA 2025 Autonomous Driving Competition!
+      🏆 [YAX](https://www.instagram.com/yonsei_yax/) won 4th Place the HL FMA 2025 Autonomous Driving Competition!
   
   - date: "2025-09-06"
     content: >-
