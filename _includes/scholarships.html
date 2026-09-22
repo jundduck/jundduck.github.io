@@ -1,0 +1,24 @@
+<div class="scholarships" style="margin-top:3rem; margin-bottom:3rem;">
+  <h2>Scholarships</h2>
+  {% if site.scholarships != blank -%}
+  <div class="table-responsive">
+    <table class="table table-sm table-borderless">
+      {%- assign scholarships = site.scholarships | sort: 'date' | reverse -%}
+      {% for item in scholarships %}
+      <tr>
+        <th scope="row" style="white-space:nowrap;">{{ item.start_end }}</th>
+        <td>
+          {% if item.inline -%}
+            {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+          {%- else -%}
+            <a class="scholarship-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+          {%- endif %}
+        </td>
+      </tr>
+      {%- endfor %}
+    </table>
+  </div>
+  {%- else -%}
+  <p>No scholarships so far...</p>
+  {%- endif %}
+</div>

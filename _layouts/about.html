@@ -89,6 +89,11 @@ layout: default
           {%- endif %}                     <!-- 조건문 종료 -->
 
           
+          <!-- Scholarships -->
+          {% if page.scholarships -%}
+          {%- include scholarships.html %}
+          {%- endif %}
+
           <!-- Social -->
           {%- if page.social %}
           <div class="social">

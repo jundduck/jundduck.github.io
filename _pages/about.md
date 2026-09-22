@@ -4,13 +4,15 @@ title: About                  # 페이지 제목(브라우저/헤더에 사용)
 permalink: /                  # 이 페이지의 URL 경로(홈으로 설정)
 subtitle:                     # 서브타이틀(비워두면 표시 안 됨)
 
+scholarships: true     # _scholarships 폴더의 장학금 항목 표시
+
 profile:
   align: right
   image: profile.jpg # assets/img/
   image_cicular: false # crops the image to make it circular
   address: > 
 
-news: true             # _news 폴더의 항목들을 표시함
+news: true             # _news/news.md의 항목들을 표시함
 selected_papers: true  # "selected=true"로 표시된 논문만 출력하는 Publications 섹션 포함
 competition: true      # _competition 폴더의 항목들을 표시함
 project: true          # _project 폴더의 항목들을 표시함
@@ -28,6 +30,6 @@ My research interest lies in developing autonomous driving and mobility systems 
 Having experienced Paraplegia in the past, I deeply understand how mobility limitations can affect one’s independence and quality of life. This experience motivates me to develop a stronger interest in mobility technologies that can improve safety and accessibility not only for the general public, but also for transportation vulnerable individuals, including people with mobility impairments.
 
 
-Research Areas: [Autonomous Driving](),[Robotics](), [World Model]()
+Research Areas: [Robotics](), [Vision-Language-Action Model](), [World Model]()
 
 Email: [ryan082688@gmail.com](mailto:ryan082688@gmail.com)

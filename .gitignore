@@ -10,3 +10,6 @@ Gemfile.lock
 vendor
 
 projects
+
+# Keep large local videos out of Git history.
+/assets/mp4/

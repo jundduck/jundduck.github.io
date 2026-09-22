@@ -1,12 +1,13 @@
           
           <div class="news">
             <h2>News</h2>
-            {% if site.news != blank -%} 
-            {%- assign news_size = site.news | size -%}
+            {%- assign news_document = site.news | first -%}
+            {%- assign news = news_document.entries | where_exp: "item", "item.published != false" | sort: "date" | reverse -%}
+            {% if news != empty -%}
+            {%- assign news_size = news | size -%}
             {%- assign visible_news_count = site.news_limit | default: 4 -%}
             <div class="table-responsive{% if site.news_scrollable and news_size > visible_news_count %} news-scroll{% endif %}">
               <table class="table table-sm table-borderless">
-              {%- assign news = site.news | sort: "date" | reverse -%}
               {% if site.news_scrollable %}
               {% assign news_limit = news_size %}
               {% elsif site.news_limit %}
@@ -18,11 +19,7 @@
                 <tr>
                   <th scope="row" style="width:16%">{{ item.date | date: "%b %-d, %Y" }}</th>
                   <td>
-                    {% if item.inline -%} 
-                      {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
-                    {%- else -%} 
-                      <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
-                    {%- endif %} 
+                    {{ item.content | markdownify | remove: '<p>' | remove: '</p>' | emojify }}
                   </td>
                 </tr>
               {%- endfor %} 

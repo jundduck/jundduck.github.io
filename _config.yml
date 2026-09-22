@@ -126,11 +126,8 @@ disqus_shortname: Junseok Lee # put your disqus shortname
 # -----------------------------------------------------------------------------
 
 collections:
-  news:                          # `_news/` 폴더를 하나의 컬렉션으로 정의
-    defaults:
-      layout: post               # 각 news 문서의 기본 레이아웃
-    output: true                 # 빌드된 사이트에 출력할지 여부
-    permalink: /news/:path/      # 각 항목의 고유 링크(폴더/파일명 기반)
+  news:
+    output: false
 
 
   education:
@@ -165,6 +162,12 @@ collections:
     output: true
     permalink: /honors/:path/
 
+
+  scholarships:
+    defaults:
+      layout: post
+    output: true
+    permalink: /scholarships/:path/
 
   services:
     defaults:
