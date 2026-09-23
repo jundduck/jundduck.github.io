@@ -25,9 +25,9 @@ social: true           # 페이지 하단에 소셜 아이콘(LinkedIn, GitHub �
 
 I am a Undergraduate student at [Yonsei University](https://www.yonsei.ac.kr/sc/index.do), South Korea.
 
-My research interest lies in developing autonomous driving and mobility systems that meaningfully improve people’s lives. While improving technical performance is very important, I focus more how these technologies can be applied in real world environments and what practical benefits can be provided.
+My research interests lie in developing robotics and autonomous driving technologies that assist people in everyday life and expand their freedom of movement. I am particularly interested in how robots and autonomous vehicles perceive, make decisions, and act safely in complex and changing real-world environments. Alongside improving technical performance, I aim to make these technologies useful in practice and contribute to people’s independence and quality of life.
 
-Having experienced Paraplegia in the past, I deeply understand how mobility limitations can affect one’s independence and quality of life. This experience motivates me to develop a stronger interest in mobility technologies that can improve safety and accessibility not only for the general public, but also for transportation vulnerable individuals, including people with mobility impairments.
+Having experienced paraplegia, I understand how physical limitations and mobility challenges can affect personal independence and daily life. This experience has shaped my interest in robots that assist with everyday activities and autonomous driving technologies that support safe and accessible transportation. By considering the needs of diverse users, including people with mobility impairments, I hope to develop technologies that help people live more independently.
 
 
 Research Areas: [Robotics](), [Vision-Language-Action Model](), [World Model]()
