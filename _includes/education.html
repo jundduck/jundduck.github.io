@@ -3,7 +3,7 @@
   {% if site.education != blank -%} 
   <div class="table-responsive">
     <table class="table table-sm table-borderless">
-      {%- assign education = site.education | where_exp: "item", "item.published != false" | reverse -%} 
+      {%- assign education = site.education | reverse -%} 
       {% for item in education limit: site.education_limit %} 
         <tr>
           <th scope="row">{{ item.start_end }}</th>
