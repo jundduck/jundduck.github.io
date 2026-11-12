@@ -19,3 +19,26 @@ $max-content-width: {{ site.max_width }};
   "base",       // 본문, 헤더, 푸터, 카드, 블로그 등 공통 스타일 (_base.scss)
   "distill"     // al-folio 테마의 Distill 포스트/논문 스타일 (distillpub 관련 디자인)
 ;
+
+// Stack education dates and details on small screens.
+@media (max-width: 575.98px) {
+  .education {
+    tr {
+      display: block;
+      margin-bottom: 1rem;
+    }
+
+    th,
+    td {
+      display: block;
+    }
+
+    th:empty {
+      display: none;
+    }
+
+    td {
+      left: 0 !important;
+    }
+  }
+}
